@@ -1,0 +1,51 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+# Never commit your API keys or credentials
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Vector Database Persistence Storage
+# ==========================================
+# ChromaDB writes sqlite3 and binary index files here
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# IDE & Operating System Files
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+

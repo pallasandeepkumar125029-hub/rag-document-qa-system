@@ -1,0 +1,37 @@
+# ==============================================================================
+# RAG System Dependencies
+# Optimized for Python 3.10+ | LangChain 0.3+ | ChromaDB | HuggingFace
+# ==============================================================================
+
+# Core LangChain Framework
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+
+# Vector Database (ChromaDB + LangChain integration)
+chromadb>=0.5.0
+langchain-chroma>=0.1.4
+
+# Embeddings (100% Local & Free via HuggingFace)
+sentence-transformers>=3.0.0
+langchain-huggingface>=0.1.0
+
+# LLM Providers (Hybrid Option: Local Ollama + Cloud OpenAI)
+langchain-ollama>=0.2.0
+langchain-openai>=0.2.0
+
+# Document Ingestion & Parsing (PDF handling)
+pypdf>=4.0.0
+
+# Environment Configuration
+python-dotenv>=1.0.0
+
+# Tokenizer (utility for token counting)
+tiktoken>=0.7.0
+
+# Interactive Web Application
+streamlit>=1.38.0
+
+# Testing Framework
+pytest>=8.0.0
+
