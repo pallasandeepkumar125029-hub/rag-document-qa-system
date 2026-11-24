@@ -1,3 +1,8 @@
+Internship Project Submission
+Developed by: Sandeep Kumar 
+Program: B.Tech CSE (AI & ML)
+This project demonstrates the implementation of a Retrieval-Augmented Generation (RAG) system using LangChain, ChromaDB, HuggingFace Embeddings, and Streamlit.
+
 # Document Question Answering System using Retrieval-Augmented Generation (RAG)
 
 An academic internship project built for **B.Tech CSE (AI & ML)** demonstrating a complete, working **Retrieval-Augmented Generation (RAG)** pipeline using **Python, LangChain, ChromaDB, and HuggingFace Embeddings**.
